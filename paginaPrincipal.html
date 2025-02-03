@@ -138,20 +138,42 @@
         <!--Lista de Respostas-->
         <section>
             <h2>Verifique suas Respostas</h2>
-            <ol>
-                <li>HTML</li>
-                <li>Domínio</li>
-                <li>Ab23!kao8Anmd#(exepmlo de senha forte)</li>
-                <li>1991</li>
-                <li>JavaScript,Java</li>
-                <li>Arquivo deve ter extensão .html</li>
-                <li>Type</li>
-                <li>Java</li>
-            </ol>
+            <details>
+                <summary>Clique aqui para ver as respostas do Quiz</summary>
+                <ol>
+                    <li>HTML</li>
+                    <li>Domínio</li>
+                    <li>Ab23!kao8Anmd#(exepmlo de senha forte)</li>
+                    <li>1991</li>
+                    <li>JavaScript,Java</li>
+                    <li>Arquivo deve ter extensão .html</li>
+                    <li>Type</li>
+                    <li>Java</li>
+                </ol>
+            </details>
         </section>
+        <!--Formulário de Feedback-->
+        <section>
+            <h2>Deixe seu Feedback</h2>
+            <form >
+                <fieldset>
+                    <legend>Informações de contato</legend>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome"><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email"><br>
+                    <label for="comentarios">Comentários:</label>
+                    <textarea name="comentatios" id="comentarios" rol></textarea><br>
+                    <button onclick="alert('Seu feedback foi enviado com sucesso')">Envie seu Feedback</button>
+                </fieldset>
 
+            </form>
+        </section>
     </main>
-    <footer></footer>
+    <footer>
+        <p> &copy; &gt; Quiz de programadores. Todos os Direitos reservados &lt;</p>
+        <p>Para conhecer outros quizzes <a href="paginasobremim.html" target="_blank">Clique aqui</a>
+    </footer>
 </body>
 
 </html>
