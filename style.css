@@ -43,11 +43,51 @@ input[type="radio"], input[type="checkbox"] {
     accent-color: #CCD595;
 }
 
-input[type="text"]{
+input[type="text"], input[type="password"], input[type="date"], input[type="email"] {
     width: 100%;
     padding: 0.6rem; 
     border: 2px solid #CCD595;
     outline: none;
     border-radius: 10px;
     background-color: transparent;
+}
+
+input::placeholder{
+    color: #CBBBA7;
+}
+
+select {
+    cursor: pointer;
+    background-color: #CCD595;
+    color: #331F19;
+    border-radius: 10px;
+    border:none;
+    outline: none;
+}
+
+img{
+    width: 10rem;
+    border-radius: 10px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th{
+    background-color: #CCD595;
+    color:#331F19;
+    padding: 1rem;
+}
+
+td{
+    color: #331F19;
+    padding: 1rem;
+    text-align: center;
+}
+
+tfoot td{
+    background-color: #331F19;
+    color: #F4F0EA;
 }
