@@ -39,20 +39,24 @@ h2 {
     font-size: 1.2rem;
 }
 
-input[type="radio"], input[type="checkbox"] {
+input[type="radio"],
+input[type="checkbox"] {
     accent-color: #CCD595;
 }
 
-input[type="text"], input[type="password"], input[type="date"], input[type="email"] {
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="email"] {
     width: 100%;
-    padding: 0.6rem; 
+    padding: 0.6rem;
     border: 2px solid #CCD595;
     outline: none;
     border-radius: 10px;
     background-color: transparent;
 }
 
-input::placeholder{
+input::placeholder {
     color: #CBBBA7;
 }
 
@@ -61,33 +65,53 @@ select {
     background-color: #CCD595;
     color: #331F19;
     border-radius: 10px;
-    border:none;
+    border: none;
     outline: none;
 }
 
-img{
+img {
     width: 10rem;
     border-radius: 10px;
 }
 
-table{
+table {
     width: 100%;
     border-collapse: collapse;
 }
 
-th{
+th {
     background-color: #CCD595;
-    color:#331F19;
+    color: #331F19;
     padding: 1rem;
 }
 
-td{
+td {
     color: #331F19;
     padding: 1rem;
     text-align: center;
 }
 
-tfoot td{
+tfoot td {
     background-color: #331F19;
     color: #F4F0EA;
+}
+
+details {
+    background-color: #CCD595;
+    border-radius: 5px;
+    padding: 1em;
+}
+
+summary {
+    color: #331F19;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+
+ol {
+    margin-left:1.5rem;
+}
+
+ol li{
+    padding: 0.2rem;
 }
